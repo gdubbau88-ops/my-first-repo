@@ -5,3 +5,13 @@ a{
     border-color: black;
     padding: 5px
 }
+
+body{
+    background-color:black;
+
+}
+img{
+    background-color: black;
+    align-items: center;
+    width: 900px;
+}
