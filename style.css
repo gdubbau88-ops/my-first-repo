@@ -7,11 +7,19 @@ a{
 }
 
 body{
-    background-color:black;
+    background-color:white;
 
 }
-img{
+p{
+    color:white;
     background-color: black;
+}
+img{
+    background-color: white;
     align-items: center;
-    width: 900px;
+    text-align: center;
+    width: 700px;
+    height:auto;
+    display: flex;
+    
 }
