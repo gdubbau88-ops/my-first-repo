@@ -14,6 +14,10 @@ p{
     color:white;
     background-color: black;
 }
+.Description{
+    color: black;
+    background-color: white;
+}
 img{
     background-color: white;
     align-items: center;
@@ -23,3 +27,4 @@ img{
     display: flex;
     
 }
+
