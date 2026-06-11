@@ -39,6 +39,7 @@ button{
     left: calc(50vw - .5 * 180px);
     background-color: black;
     border-color: black;
+    color: #ef6000;
     height: 150px;
     font-size: 200%;
     width:180px;
