@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="195.84"
+   height="159.67999"
+   viewBox="0 0 195.84 159.67999"
+   sodipodi:docname="turtleShellLeftMiddle.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title2">turtleShellBlackAndWhite</title>
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.1919957"
+     inkscape:cx="129.7904"
+     inkscape:cy="80.520231"
+     inkscape:window-width="1366"
+     inkscape:window-height="697"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g1">
+    <g
+       id="g2"
+       transform="translate(29.677898,11.935676)">
+      <path
+         style="fill:#000000;stroke-width:3.41883"
+         d="M -0.74250619,94.396495 C -9.5946124,88.634807 -11.662968,55.393188 -3.5852574,48.709173 1.1971835,44.751872 5.5870372,45.36924 19.703978,51.98445 c 6.79899,3.186017 13.158198,6.733597 14.131571,7.883514 1.280435,1.512665 1.769774,4.931273 1.769774,12.363954 0,12.254353 -0.112227,12.392648 -15.798968,19.468165 -11.2777141,5.086829 -15.936973,5.698212 -20.54886119,2.696412 z"
+         id="path1"
+         sodipodi:nodetypes="sssssss" />
+    </g>
+  </g>
+  <metadata
+     id="metadata2">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>turtleShellBlackAndWhite</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

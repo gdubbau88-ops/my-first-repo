@@ -13,15 +13,22 @@ body{
 p{
     color:white;
     background-color: black;
+    font-family: 'Times New Roman', Times, serif;
 }
 .Description{
     color: black;
     background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Professional-Headshot{
+    align-items: center;
+    text-align: center;
 }
 img{
     background-color: white;
-    align-items: center;
-    text-align: center;
+    position: relative;
+    left: calc(50vw - .5 * 700px);
+    top:15px;
     width: 700px;
     height:auto;
     display: flex;
