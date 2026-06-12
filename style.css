@@ -197,3 +197,9 @@ align-items: center;
 .buttonTopRight{right:23%;}
 .buttonBottomLeft{left:23%;}
 .buttonBottomRight{right: 23%;}
+h6{
+    text-align: center;
+}
+.contactInfo{
+    text-align: center;
+}
