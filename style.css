@@ -51,7 +51,7 @@ img{
     position: relative;
     padding: 0px;
     margin: 0px;
-   left: calc(25vw - .5 * 150px);   
+   left: calc(50vw - 275px);   
     background-color: black;
     border-color: black;
     text-align: center;
@@ -79,12 +79,13 @@ img{
 }
 
 .buttonLink{
-    color: transparent;
+    color: black;
     background-color: transparent;
+    font-size: xx-small;
 }
 br{
     font-size: 0.001px;
-    height: inherit;
+    height: 0.001;
     padding: 0.00001px;
     margin: 0.0001px;
 }
