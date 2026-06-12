@@ -27,11 +27,11 @@ p{
 img{
     background-color: transparent;
     position: relative;
-    left: calc(50vw - .5 * 700px);
-    top:15px;
+    /* left: calc(50vw - .5 * 700px); */
+    /* top:15px; */
     width: 700px;
     height:auto;
-    display: flex;
+    display: grid;
     
 }
 /* .turtleShell{
@@ -44,10 +44,10 @@ img{
     background-color: black;
     border-color: black;
     color: #ef6000;
-    height: 150px;
-    font-size: 200%;
-    width:180px;
-    border-radius: 60px;
+    height: 25vw;
+    font-size: 6vw;
+    width:25vw;
+    border-radius: 200px;
      /* top: calc(-1 * (50vh - 0.5 * 1px)); */
      /* top: -57.5vh; */
  } 
@@ -60,8 +60,8 @@ img{
     border-color: black;
     text-align: center;
     color: #ef6000;
-    height: 125px;
-    width:150px;
+    height: 20vw;
+    width:20vw;
     font-size: 200%;
     border-radius: 200px;
        /* top: calc(-1 * (50vh - 0.5 * 1px));  
@@ -74,14 +74,45 @@ img{
     border-color: black;
     text-align: center;
     color: #ef6000;
-    height: 125px;
-    width:150px;
+    height: 20vw;
+    width:20vw;
     font-size: 200%;
     border-radius: 200px;
      /* top: calc(-1 * (50vh - 0.5 * 1px)); */
      /* top: -60vh;  */
  }
-
+ .buttonTopLeft{ 
+    /* position: relative; */
+    padding: 0px;
+    margin: 0px;
+   /* left: calc(50vw - 275px);    */
+    background-color: black;
+    border-color: black;
+    text-align: center;
+    color: #ef6000;
+    height: 20vw;
+    width:20vw;
+    font-size: 200%;
+    border-radius: 200px;
+       /* top: calc(-1 * (50vh - 0.5 * 1px));  
+       top: -80vh; */
+ }  
+  .buttonTopRight{ 
+    /* position: relative; */
+    padding: 0px;
+    margin: 0px;
+   /* left: calc(50vw - 275px);    */
+    background-color: black;
+    border-color: black;
+    text-align: center;
+    color: #ef6000;
+    height: 20vw;
+    width:20vw;
+    font-size: 200%;
+    border-radius: 200px;
+       /* top: calc(-1 * (50vh - 0.5 * 1px));  
+       top: -80vh; */
+ }  
 .buttonLink{
     color: black;
     background-color: transparent;
@@ -98,6 +129,8 @@ br{
     width: 100%;
     /* height: 80vh; */
     overflow: hidden;
+    display: grid;
+    aspect-ratio: 5/4;
 }
 .InteractiveTurtleShell img{
 width:100%;
@@ -105,13 +138,16 @@ height: 100%;
 object-fit: cover;
 display: block;
 align-items: center;
+/* grid-area: 1/1; */
 
 }
 .buttonLeft,.buttonRight,.buttonCenter{
     position:absolute;
-    top:50%;
+    top:52.5%;
     transform: translateY(-50%);
 }
-.buttonLeft  { left: 20%;  }
-.buttonCenter{ left: 59%; transform: translate(-50%, -50%); }
-.buttonRight { right: 4%; }
+.buttonLeft  { left: 10%;  }
+.buttonCenter{ left: 50%; transform: translate(-50%, -50%); }
+.buttonRight { right: 10%; }
+.buttonTopLeft{left:15%;}
+.buttonTopRight{right:15;}
