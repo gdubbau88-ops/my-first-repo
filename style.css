@@ -11,18 +11,24 @@ body{
 
 }
 p{
-    color:white;
-    background-color: black;
+    color:black;
+    background-color:#ef6000;
     font-family: 'Times New Roman', Times, serif;
 }
 .Description{
-    color: black;
-    background-color: white;
+    color: #ef6000;
+    background-color: black;
+    text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .Professional-Headshot{
     align-items: center;
     text-align: center;
+    position: relative;
+    width:50vw;
+    height:50vw;
+    left:calc(50% - 25vw);
+    bottom: 50%;
 }
 img{
     background-color: transparent;
@@ -202,4 +208,9 @@ h6{
 }
 .contactInfo{
     text-align: center;
+    color: #ef6000;
+    background-color: black;
+}
+footer{color: #ef6000;
+    background-color: black;
 }
