@@ -1,53 +1,83 @@
-a{
+a {
     color: #ef6000;
     background-color: black;
     border: 4px;
     border-color: black;
     padding: 5px
 }
-.Projects{
+
+.Projects {
     background-color: #2ec4b6;
     color: #2ec4b6;
 }
-body{
-    background-color:#ef6000;
+
+.AboutMe {
+    background-color: #2ec4b6;
+    color: #2ec4b6;
+}
+
+.home {
+    background-color: #2ec4b6;
+    color: #2ec4b6;
+}
+
+.Accessibility {
+    background-color: #2ec4b6;
+    background: #2ec4b6;
+}
+
+.Home {
+    color: #2ec4b6;
+    background-color: #2ec4b6;
+}
+
+body {
+    background-color: #ef6000;
 
 }
-p{
-    color:black;
-    background-color:#ef6000;
+
+p {
+    color: black;
+    background-color: #ef6000;
     font-family: 'Times New Roman', Times, serif;
 }
-.Description{
+
+.Description {
     color: #ef6000;
     background-color: black;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.Professional-Headshot{
+
+.Professional-Headshot {
     align-items: center;
     text-align: center;
     position: relative;
-    width:50vw;
-    height:50vw;
-    left:calc(50% - 25vw);
+    width: 50vw;
+    height: 50vw;
+    left: calc(50% - 25vw);
     bottom: 50%;
 }
-img{
+
+.mjfm {
+height: 700px;
+}
+img {
     background-color: transparent;
     position: relative;
     /* left: calc(50vw - .5 * 700px); */
     /* top:15px; */
     width: 700px;
-    height:auto;
+    height: auto;
     display: grid;
-    
+
 }
+
 /* .turtleShell{
     background-image: image-set(turtleShell);
     display:flex;
 } */
-.buttonCenter{
+.buttonCenter {
     /* position: relative; */
     /* left: calc(50vw - .5 * 180px); */
     background-color: transparent;
@@ -55,119 +85,128 @@ img{
     color: #0A0a0a;
     height: 25vw;
     font-size: 4vw;
-    width:25vw;
+    width: 25vw;
     border-radius: 200px;
-     /* top: calc(-1 * (50vh - 0.5 * 1px)); */
-     /* top: -57.5vh; */
- } 
- .buttonLeft{ 
+    /* top: calc(-1 * (50vh - 0.5 * 1px)); */
+    /* top: -57.5vh; */
+}
+
+.buttonLeft {
     /* position: relative; */
     padding: 0px;
     margin: 0px;
-   /* left: calc(50vw - 275px);    */
+    /* left: calc(50vw - 275px);    */
     background-color: transparent;
     border-color: transparent;
     text-align: center;
     color: #0A0a0a;
     height: 20vw;
-    width:20vw;
+    width: 20vw;
     font-size: 3vw;
     border-radius: 200px;
-       /* top: calc(-1 * (50vh - 0.5 * 1px));  
+    /* top: calc(-1 * (50vh - 0.5 * 1px));  
        top: -80vh; */
- }  
-.buttonRight{
-     /* position: relative; */
+}
+
+.buttonRight {
+    /* position: relative; */
     /* left: calc(36.5vw - .5 * 160px); */
     background-color: transparent;
     border-color: transparent;
     text-align: center;
     color: #0A0a0a;
     height: 20vw;
-    width:20vw;
+    width: 20vw;
     font-size: 3vw;
     border-radius: 200px;
-     /* top: calc(-1 * (50vh - 0.5 * 1px)); */
-     /* top: -60vh;  */
- }
- .buttonTopLeft{ 
+    /* top: calc(-1 * (50vh - 0.5 * 1px)); */
+    /* top: -60vh;  */
+}
+
+.buttonTopLeft {
     /* position: relative; */
     padding: 0px;
     margin: 0px;
-   /* left: calc(50vw - 275px);    */
+    /* left: calc(50vw - 275px);    */
     background-color: transparent;
     border-color: transparent;
     text-align: center;
     color: 0A0a0a;
     height: 25vw;
-    width:23vw;
+    width: 23vw;
     font-size: 3vw;
     border-radius: 150px 40px;
-       /* top: calc(-1 * (50vh - 0.5 * 1px));  
+    /* top: calc(-1 * (50vh - 0.5 * 1px));  
        top: -80vh; */
- }  
-  .buttonTopRight{ 
+}
+
+.buttonTopRight {
     /* position: relative; */
     padding: 0px;
     margin: 0px;
-   /* left: calc(50vw - 275px);    */
+    /* left: calc(50vw - 275px);    */
     background-color: transparent;
     border-color: transparent;
     text-align: center;
     color: #0A0a0a;
     height: 25vw;
-    width:23vw;
+    width: 23vw;
     font-size: 3vw;
     border-radius: 40px 150px 40px 150px;
-    
-       /* top: calc(-1 * (50vh - 0.5 * 1px));  
+
+    /* top: calc(-1 * (50vh - 0.5 * 1px));  
        top: -80vh; */
- }  
- .buttonBottomRight{ 
+}
+
+.buttonBottomRight {
     /* position: relative; */
     padding: 0px;
     margin: 0px;
-   /* left: calc(50vw - 275px);    */
+    /* left: calc(50vw - 275px);    */
     background-color: transparent;
     border-color: transparent;
     text-align: center;
     color: #0A0a0a;
     height: 25vw;
-    width:23vw;
+    width: 23vw;
     font-size: 3vw;
     border-radius: 150px 40px;
-       /* top: calc(-1 * (50vh - 0.5 * 1px));  
+    /* top: calc(-1 * (50vh - 0.5 * 1px));  
        top: -80vh; */
- }  
-  .buttonBottomLeft{ 
+}
+
+.buttonBottomLeft {
     /* position: relative; */
     padding: 0px;
     margin: 0px;
-   /* left: calc(50vw - 275px);    */
+    /* left: calc(50vw - 275px);    */
     background-color: transparent;
     border-color: transparent;
     text-align: center;
     color: #0A0a0a;
     height: 25vw;
-    width:23vw;
+    width: 23vw;
     font-size: 3vw;
     border-radius: 40px 150px;
-    
-       /* top: calc(-1 * (50vh - 0.5 * 1px));  
+
+    /* top: calc(-1 * (50vh - 0.5 * 1px));  
        top: -80vh; */
- }  
-.buttonLink{
+}
+
+.buttonLink {
     color: #2ec4b6;
     background-color: transparent;
     font-size: xx-small;
 }
-br{
+
+br {
     font-size: 0.001px;
     height: 0.001;
     padding: 0.00001px;
     margin: 0.0001px;
 }
-.InteractiveTurtleShell{
+
+.InteractiveTurtleShell {
     position: relative;
     width: 100%;
     /* height: 80vh; */
@@ -175,46 +214,85 @@ br{
     display: grid;
     aspect-ratio: 5/4;
 }
-.InteractiveTurtleShell img{
-width:100%;
-height: 100%;
-object-fit: cover;
-display: block;
-align-items: center;
-color: #2ec4b6;
-/* grid-area: 1/1; */
+
+.InteractiveTurtleShell img {
+    width: 100%;
+    height: 100%;
+    size: cover;
+    background-size: cover;
+    object-fit: cover;
+    display: block;
+    align-items: center;
+    color: #2ec4b6;
+    /* grid-area: 1/1; */
 
 }
-.buttonLeft,.buttonRight,.buttonCenter{
-    position:absolute;
-    top:52.5%;
-    transform: translateY(-50%);
-}
-.buttonTopLeft,.buttonTopRight{
+
+.buttonLeft,
+.buttonRight,
+.buttonCenter {
     position: absolute;
-    top:20%;
+    top: 52.5%;
     transform: translateY(-50%);
 }
-.buttonBottomLeft,.buttonBottomRight{
+
+.buttonTopLeft,
+.buttonTopRight {
     position: absolute;
-    top:83%;
+    top: 20%;
     transform: translateY(-50%);
 }
-.buttonLeft  { left: 10%;  }
-.buttonCenter{ left: 50%; transform: translate(-50%, -50%); }
-.buttonRight { right: 10%; }
-.buttonTopLeft{left:23%;}
-.buttonTopRight{right:23%;}
-.buttonBottomLeft{left:23%;}
-.buttonBottomRight{right: 23%;}
-h6{
-    text-align: center;
+
+.buttonBottomLeft,
+.buttonBottomRight {
+    position: absolute;
+    top: 83%;
+    transform: translateY(-50%);
 }
-.contactInfo{
-    text-align: center;
-    color: #ef6000;
-    background-color: black;
+
+.buttonLeft {
+    left: 10%;
 }
-footer{color: #ef6000;
-    background-color: black;
+
+.buttonCenter {
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.buttonRight {
+    right: 10%;
+}
+
+.buttonTopLeft {
+    left: 23%;
+}
+
+.buttonTopRight {
+    right: 23%;
+}
+
+.buttonBottomLeft {
+    left: 23%;
+}
+
+.buttonBottomRight {
+    right: 23%;
+}
+
+.ContactInfo {
+    text-align: center;
+    color: #0A0a0a;
+    background-color: #2ec4b6;
+    display: block;
+    border: 5px solid #0A0a0a;
+}
+
+footer {
+    margin: 0px;
+    padding: 0px;
+    border: #0A0a0a;
+}
+
+h6 {
+    text-align: center;
 }
