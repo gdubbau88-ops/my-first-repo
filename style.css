@@ -5,7 +5,10 @@ a{
     border-color: black;
     padding: 5px
 }
-
+.Projects{
+    background-color: #2ec4b6;
+    color: #2ec4b6;
+}
 body{
     background-color:#ef6000;
 
@@ -49,7 +52,7 @@ img{
     /* left: calc(50vw - .5 * 180px); */
     background-color: transparent;
     border-color: transparent;
-    color: #ef6000;
+    color: #0A0a0a;
     height: 25vw;
     font-size: 4vw;
     width:25vw;
@@ -65,7 +68,7 @@ img{
     background-color: transparent;
     border-color: transparent;
     text-align: center;
-    color: #ef6000;
+    color: #0A0a0a;
     height: 20vw;
     width:20vw;
     font-size: 3vw;
@@ -79,7 +82,7 @@ img{
     background-color: transparent;
     border-color: transparent;
     text-align: center;
-    color: #ef6000;
+    color: #0A0a0a;
     height: 20vw;
     width:20vw;
     font-size: 3vw;
@@ -95,7 +98,7 @@ img{
     background-color: transparent;
     border-color: transparent;
     text-align: center;
-    color: #ef6000;
+    color: 0A0a0a;
     height: 25vw;
     width:23vw;
     font-size: 3vw;
@@ -111,7 +114,7 @@ img{
     background-color: transparent;
     border-color: transparent;
     text-align: center;
-    color: #ef6000;
+    color: #0A0a0a;
     height: 25vw;
     width:23vw;
     font-size: 3vw;
@@ -128,7 +131,7 @@ img{
     background-color: transparent;
     border-color: transparent;
     text-align: center;
-    color: #ef6000;
+    color: #0A0a0a;
     height: 25vw;
     width:23vw;
     font-size: 3vw;
@@ -144,7 +147,7 @@ img{
     background-color: transparent;
     border-color: transparent;
     text-align: center;
-    color: #ef6000;
+    color: #0A0a0a;
     height: 25vw;
     width:23vw;
     font-size: 3vw;
@@ -154,7 +157,7 @@ img{
        top: -80vh; */
  }  
 .buttonLink{
-    color: black;
+    color: #2ec4b6;
     background-color: transparent;
     font-size: xx-small;
 }
@@ -178,6 +181,7 @@ height: 100%;
 object-fit: cover;
 display: block;
 align-items: center;
+color: #2ec4b6;
 /* grid-area: 1/1; */
 
 }
