@@ -58,9 +58,14 @@ p {
     left: calc(50% - 25vw);
     bottom: 50%;
 }
-
-.mjfm {
-height: 700px;
+nav {
+color: yellow;
+background-color: yellow;
+}
+.MJFM{
+height: 60px;
+display: flex;
+flex-wrap: wrap;
 }
 img {
     background-color: transparent;
