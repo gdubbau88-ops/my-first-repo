@@ -290,6 +290,7 @@ br {
     background-color: #2ec4b6;
     display: block;
     border: 5px solid #0A0a0a;
+    font-size: 2vw;
 }
 
 footer {
@@ -298,6 +299,6 @@ footer {
     border: #0A0a0a;
 }
 
-h6 {
+h5 {
     text-align: center;
 }
