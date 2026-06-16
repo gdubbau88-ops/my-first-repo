@@ -1,8 +1,8 @@
 a {
     color: #ef6000;
-    background-color: black;
+    background-color: #0A0a0a;
     border: 4px;
-    border-color: black;
+    border-color: #0A0a0a;
     padding: 5px
 }
 
@@ -37,14 +37,14 @@ body {
 }
 
 p {
-    color: black;
+    color: #0A0a0a;
     background-color: #ef6000;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .Description {
     color: #ef6000;
-    background-color: black;
+    background-color: #0A0a0a;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
