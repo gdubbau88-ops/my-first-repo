@@ -6,12 +6,12 @@ a {
     padding: 5px
 }
 
-.Projects {
+.projects {
     background-color: #2ec4b6;
     color: #2ec4b6;
 }
 
-.AboutMe {
+.about-me {
     background-color: #2ec4b6;
     color: #2ec4b6;
 }
@@ -21,7 +21,7 @@ a {
     color: #2ec4b6;
 }
 
-.Accessibility {
+.accessibility {
     background-color: #2ec4b6;
     background: #2ec4b6;
 }
@@ -42,14 +42,14 @@ p {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.Description {
+.description {
     color: #ef6000;
     background-color: #0A0a0a;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.Professional-Headshot {
+.professional-headshot {
     align-items: center;
     text-align: center;
     position: relative;
@@ -82,7 +82,7 @@ img {
     background-image: image-set(turtleShell);
     display:flex;
 } */
-.buttonCenter {
+.button-center {
     /* position: relative; */
     /* left: calc(50vw - .5 * 180px); */
     background-color: transparent;
@@ -96,7 +96,7 @@ img {
     /* top: -57.5vh; */
 }
 
-.buttonLeft {
+.button-left {
     /* position: relative; */
     padding: 0px;
     margin: 0px;
@@ -113,7 +113,7 @@ img {
        top: -80vh; */
 }
 
-.buttonRight {
+.button-right {
     /* position: relative; */
     /* left: calc(36.5vw - .5 * 160px); */
     background-color: transparent;
@@ -128,7 +128,7 @@ img {
     /* top: -60vh;  */
 }
 
-.buttonTopLeft {
+.button-top-left {
     /* position: relative; */
     padding: 0px;
     margin: 0px;
@@ -145,7 +145,7 @@ img {
        top: -80vh; */
 }
 
-.buttonTopRight {
+.button-top-right {
     /* position: relative; */
     padding: 0px;
     margin: 0px;
@@ -163,7 +163,7 @@ img {
        top: -80vh; */
 }
 
-.buttonBottomRight {
+.button-bottom-right {
     /* position: relative; */
     padding: 0px;
     margin: 0px;
@@ -180,7 +180,7 @@ img {
        top: -80vh; */
 }
 
-.buttonBottomLeft {
+.button-bottom-left {
     /* position: relative; */
     padding: 0px;
     margin: 0px;
@@ -198,7 +198,7 @@ img {
        top: -80vh; */
 }
 
-.buttonLink {
+.button-link {
     color: #2ec4b6;
     background-color: transparent;
     font-size: xx-small;
@@ -233,58 +233,58 @@ br {
 
 }
 
-.buttonLeft,
-.buttonRight,
-.buttonCenter {
+.button-left,
+.button-right,
+.button-center {
     position: absolute;
     top: 52.5%;
     transform: translateY(-50%);
 }
 
-.buttonTopLeft,
-.buttonTopRight {
+.button-top-left,
+.button-top-right {
     position: absolute;
     top: 20%;
     transform: translateY(-50%);
 }
 
-.buttonBottomLeft,
-.buttonBottomRight {
+.button-bottom-left,
+.button-bottom-right {
     position: absolute;
     top: 83%;
     transform: translateY(-50%);
 }
 
-.buttonLeft {
+.button-left {
     left: 10%;
 }
 
-.buttonCenter {
+.button-center {
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.buttonRight {
+.button-right {
     right: 10%;
 }
 
-.buttonTopLeft {
+.button-top-left {
     left: 23%;
 }
 
-.buttonTopRight {
+.button-top-right {
     right: 23%;
 }
 
-.buttonBottomLeft {
+.button-bottom-left {
     left: 23%;
 }
 
-.buttonBottomRight {
+.button-bottom-right {
     right: 23%;
 }
 
-.ContactInfo {
+.contact-info {
     text-align: center;
     color: #0A0a0a;
     background-color: #2ec4b6;
