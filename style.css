@@ -64,8 +64,9 @@ background-color: yellow;
 }
 .MJFM{
 height: 60px;
-display: flex;
+display: inline;
 flex-wrap: wrap;
+
 }
 img {
     background-color: transparent;
