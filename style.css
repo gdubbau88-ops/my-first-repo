@@ -56,20 +56,24 @@ p {
     width: 16.8vw;
     height: 21vw;
     left: calc(50% - 8.4vw);
-    bottom: -8%;
+    bottom: -24%;
+     border-radius: 10%;
 }
+
 .nav {
-color: black;
-background-color:black;
+    color: black;
+    background-color: black;
 }
-.MJFM{
-height: 60px;
-width: auto;
-display: inline;
-flex-wrap: wrap;
-aspect-ratio:  60px/60px;
+
+.MJFM {
+    height: 60px;
+    width: auto;
+    display: inline;
+    flex-wrap: wrap;
+    aspect-ratio: 60px/60px;
 
 }
+
 img {
     background-color: transparent;
     position: relative;
@@ -263,7 +267,7 @@ br {
 }
 
 .button-center {
-    left: 50%;
+    left: 37.5%;
     transform: translate(-50%, -50%);
 }
 
@@ -285,6 +289,158 @@ br {
 
 .button-bottom-right {
     right: 23%;
+}
+
+/* CSS for location of buttons on landing page button alignment */
+.button-projects,
+.button-settings,
+.button-center {
+    position: absolute;
+    top: 52.5%;
+    transform: translateY(-50%);
+}
+
+.button-about-me,
+.button-skills {
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+}
+
+.button-contact-info,
+.button-my-github {
+    position: absolute;
+    top: 83%;
+    transform: translateY(-50%);
+}
+
+.button-projects {
+    left: 10%;
+}
+
+
+.button-settings {
+    right: 10%;
+}
+
+.button-about-me {
+    left: 23%;
+}
+
+.button-skills {
+    right: 23%;
+}
+
+.button-contact-info {
+    left: 23%;
+}
+
+.button-my-github {
+    right: 23%;
+}
+
+/*css for buttons*/
+
+.button-projects {
+    /* position: relative; */
+    padding: 0px;
+    margin: 0px;
+    /* left: calc(50vw - 275px);    */
+    background-color: transparent;
+    border-color: transparent;
+    text-align: center;
+    color: #0A0a0a;
+    height: 20vw;
+    width: 20vw;
+    font-size: 3vw;
+    border-radius: 200px;
+    /* top: calc(-1 * (50vh - 0.5 * 1px));  
+       top: -80vh; */
+}
+
+.button-settings {
+    /* position: relative; */
+    /* left: calc(36.5vw - .5 * 160px); */
+    background-color: transparent;
+    border-color: transparent;
+    text-align: center;
+    color: #0A0a0a;
+    height: 20vw;
+    width: 20vw;
+    font-size: 3vw;
+    border-radius: 200px;
+    /* top: calc(-1 * (50vh - 0.5 * 1px)); */
+    /* top: -60vh;  */
+}
+
+.button-about-me {
+    /* position: relative; */
+    padding: 0px;
+    margin: 0px;
+    /* left: calc(50vw - 275px);    */
+    background-color: transparent;
+    border-color: transparent;
+    text-align: center;
+    color: 0A0a0a;
+    height: 25vw;
+    width: 23vw;
+    font-size: 3vw;
+    border-radius: 150px 40px;
+    /* top: calc(-1 * (50vh - 0.5 * 1px));  
+       top: -80vh; */
+}
+
+.button-skills {
+    /* position: relative; */
+    padding: 0px;
+    margin: 0px;
+    /* left: calc(50vw - 275px);    */
+    background-color: transparent;
+    border-color: transparent;
+    text-align: center;
+    color: #0A0a0a;
+    height: 25vw;
+    width: 23vw;
+    font-size: 3vw;
+    border-radius: 40px 150px 40px 150px;
+
+    /* top: calc(-1 * (50vh - 0.5 * 1px));  
+       top: -80vh; */
+}
+
+.button-my-github {
+    /* position: relative; */
+    padding: 0px;
+    margin: 0px;
+    /* left: calc(50vw - 275px);    */
+    background-color: transparent;
+    border-color: transparent;
+    text-align: center;
+    color: #0A0a0a;
+    height: 25vw;
+    width: 23vw;
+    font-size: 3vw;
+    border-radius: 150px 40px;
+    /* top: calc(-1 * (50vh - 0.5 * 1px));  
+       top: -80vh; */
+}
+
+.button-contact-info {
+    /* position: relative; */
+    padding: 0px;
+    margin: 0px;
+    /* left: calc(50vw - 275px);    */
+    background-color: transparent;
+    border-color: transparent;
+    text-align: center;
+    color: #0A0a0a;
+    height: 25vw;
+    width: 23vw;
+    font-size: 3vw;
+    border-radius: 40px 150px;
+
+    /* top: calc(-1 * (50vh - 0.5 * 1px));  
+       top: -80vh; */
 }
 
 .contact-info {
