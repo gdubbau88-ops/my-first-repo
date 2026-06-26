@@ -38,7 +38,7 @@ body {
 
 p {
     color: #0A0a0a;
-    background-color: #ef6000;
+    background-color: black;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -58,14 +58,16 @@ p {
     left: calc(50% - 25vw);
     bottom: 50%;
 }
-nav {
-color: yellow;
-background-color: yellow;
+.nav {
+color: black;
+background-color:black;
 }
 .MJFM{
 height: 60px;
+width: auto;
 display: inline;
 flex-wrap: wrap;
+aspect-ratio:  60px/60px;
 
 }
 img {
