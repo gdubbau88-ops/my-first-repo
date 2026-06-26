@@ -52,11 +52,11 @@ p {
 .professional-headshot {
     align-items: center;
     text-align: center;
-    position: relative;
-    width: 50vw;
-    height: 50vw;
-    left: calc(50% - 25vw);
-    bottom: 50%;
+    position: absolute;
+    width: 16.8vw;
+    height: 21vw;
+    left: calc(50% - 8.4vw);
+    bottom: -8%;
 }
 .nav {
 color: black;
