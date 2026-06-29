@@ -1,4 +1,5 @@
 let english = document.querySelector(".english");
+let skills = document.querySelector(".skills");
 let spanish = document.querySelector(".spanish");
 let darkMode = document.querySelector(".dark-mode");
 let buttonCenter = document.querySelector(".button-center");
@@ -15,22 +16,26 @@ let buttonMyGithub = document.querySelector(".button-my-github");
 let buttonContactInfo = document.querySelector(".button-contact-info");
 
 function setLang(l) {
-     localStorage.setItem("lang",l)
+    localStorage.setItem("lang", l)
     if (l === "en") {
         buttonRight.innerHTML = "Choose Your Own Adventure Game";
         buttonLeft.innerHTML = "Website for change";
-        buttonSkills.innerHTML = "Skills";
-        buttonProjects.innerHTML="Projects";
-    } else if(l==="es"){
-        buttonRight.innerHTML = "Juego de elige tu propia aventura"
+        if (buttonSkills !== null)
+            buttonSkills.innerHTML = "Skills";
+        if (buttonProjects !== null)
+        buttonProjects.innerHTML = "Projects";
+    } else if (l === "es") {
+        buttonRight.innerHTML = "Juego de elige tu propia aventura";
         buttonLeft.innerHTML = "Sitio web para el cambio";
-        buttonSkills.innerHTML = "Habilidades";
+        if (buttonSkills !== null)
+            buttonSkills.innerHTML = "Habilidades";
+        if(buttonProjects !== null)
         buttonProjects.innerHTML = "Projectos";
-    }else{
+    } else {
 
     }
 
-}
+};
 
 if (english === null) {
     console.log("EN-null")
@@ -46,9 +51,10 @@ if (spanish === null) {
         setLang("es")
     })
 };
+
 document.addEventListener("DOMContentLoaded", function () {
     console.log("loaded")
     lang = localStorage.getItem("lang")
     console.log(lang)
     setLang(lang)
-})
+});

@@ -30,7 +30,9 @@ h5 {
     background-color: #2ec4b6;
     background: #2ec4b6;
 }
-
+h2{
+    color: #0A0a0a;
+}
 .Home {
     color: #2ec4b6;
     background-color: #2ec4b6;
@@ -46,7 +48,6 @@ body {
 
 p {
     color: #0A0a0a;
-    background-color: black;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -477,4 +478,51 @@ footer {
     margin: 0px;
     padding: 0px;
     border: #0A0a0a;
+}
+.about-me-section-1,
+.about-me-section-2,
+.about-me-section-3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex:1;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 5px solid black;
+    margin: 10px;
+    background-color: #2ec4b6;
+    height: auto;
+    width: 400px;
+    padding: auto;
+}
+.about-me-section-container {
+    display: flex;
+    justify-content: space-between; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.skills-section-container {
+    display: flex;
+    justify-content: space-between; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.skills-section-1,
+.skills-section-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex:1;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 5px solid black;
+    margin: 10px;
+    background-color: #2ec4b6;
+    height: auto;
+    width: 400px;
+    padding: auto;
 }
