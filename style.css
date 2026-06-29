@@ -35,7 +35,10 @@ h5 {
     color: #2ec4b6;
     background-color: #2ec4b6;
 }
-
+.Skills{
+    color: #2ec4b6;
+    background-color: #2ec4b6;
+}
 body {
     background-color: #ef6000;
 
@@ -67,8 +70,20 @@ p {
 
 .nav {
     color: black;
-    background-color: black;
+    width: 46vw;
+    height: 2vw;
+    background-color: #2ec4b6;
     size: 3vw;
+    border: solid #0A0a0a 5px;
+    border-color: #0A0a0a;
+    margin-right:550px;
+    align-items: center;
+    text-align: center;
+    left: calc(50% - 23vw);
+    position: relative;
+    padding:auto;
+    margin-top: 0.5;
+
 }
 
 .MJFM {
