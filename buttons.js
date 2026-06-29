@@ -25,7 +25,7 @@ function setLang(l) {
         buttonRight.innerHTML = "Juego de elige tu propia aventura"
         buttonLeft.innerHTML = "Sitio web para el cambio";
         buttonSkills.innerHTML = "Habilidades";
-        buttonProjects.innerHTML="Projectos";
+        buttonProjects.innerHTML = "Projectos";
     }else{
 
     }
