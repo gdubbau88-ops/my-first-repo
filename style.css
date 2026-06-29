@@ -5,7 +5,12 @@ a {
     border-color: #0A0a0a;
     padding: 5px
 }
-
+.email,
+.email-url,
+.phone,
+.phone-number{
+    
+}
 h5 {
     color: #0A0a0a;
     text-align: center;
@@ -21,6 +26,11 @@ h5 {
     color: #2ec4b6;
 }
 
+.Contact-Info {
+    background-color: #2ec4b6;
+    color: #2ec4b6;
+}
+
 .home {
     background-color: #2ec4b6;
     color: #2ec4b6;
@@ -30,17 +40,21 @@ h5 {
     background-color: #2ec4b6;
     background: #2ec4b6;
 }
-h2{
+
+h2 {
     color: #0A0a0a;
 }
+
 .Home {
     color: #2ec4b6;
     background-color: #2ec4b6;
 }
-.Skills{
+
+.Skills {
     color: #2ec4b6;
     background-color: #2ec4b6;
 }
+
 body {
     background-color: #ef6000;
 
@@ -73,16 +87,16 @@ p {
     color: black;
     width: 46vw;
     height: 2vw;
-    background-color: #2ec4b6;
+    background-color: #0A0a0a;
     size: 3vw;
     border: solid #0A0a0a 5px;
     border-color: #0A0a0a;
-    margin-right:550px;
+    margin-right: 550px;
     align-items: center;
     text-align: center;
     left: calc(50% - 23vw);
     position: relative;
-    padding:auto;
+    padding: auto;
     margin-top: 0.5;
 
 }
@@ -165,7 +179,7 @@ img {
     background-color: transparent;
     border-color: transparent;
     text-align: center;
-    color: 0A0a0a;
+    color: #0A0a0a;
     height: 25vw;
     width: 23vw;
     font-size: 3vw;
@@ -479,12 +493,13 @@ footer {
     padding: 0px;
     border: #0A0a0a;
 }
+
 .about-me-section-1,
 .about-me-section-2,
 .about-me-section-3 {
     display: flex;
     flex-wrap: wrap;
-    flex:1;
+    flex: 1;
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
@@ -496,25 +511,28 @@ footer {
     width: 400px;
     padding: auto;
 }
+
 .about-me-section-container {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
+
 .skills-section-container {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
+
 .skills-section-1,
 .skills-section-2 {
     display: flex;
     flex-wrap: wrap;
-    flex:1;
+    flex: 1;
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
