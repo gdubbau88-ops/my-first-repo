@@ -15,16 +15,33 @@ let buttonAboutMe = document.querySelector(".button-about-me");
 let buttonMyGithub = document.querySelector(".button-my-github");
 let buttonContactInfo = document.querySelector(".button-contact-info");
 let homeButton = document.querySelector(".home-button");
+let aboutMeButton = document.querySelector(".about-me-button")
+let skillsButton = document.querySelector(".skills-button");
+let settingsButton = document.querySelector(".settings-button");
+let projectsButton = document.querySelector(".projects-button");
+let contactInfoButton = document.querySelector(".contact-info-button");
 let homeSection = document.querySelector(".Home-Section");
 let aboutMeSection = document.querySelector(".About-Me-Section");
 let skillsSection = document.querySelector(".Skills-Section");
 let settingsSection = document.querySelector(".Settings-Section");
+let projectsSection = document.querySelector(".Projects-Section");
+let contactInfoSection = document.querySelector(".Contact-Info-Section");
 homeButton.addEventListener("click", function(){
     homeSection.style.display = "block";
     aboutMeSection.style.display = "none";
     skillsSection.style.display = "none";
     settingsSection.style.display = "none";
-})
+    contactInfoSection.style.display = "none";
+    projectsSection.style.display = "none";
+});
+aboutMeButton.addEventListener("click", function(){
+    homeSection.style.display = "none";
+    aboutMeSection.style.display = "block";
+    skillsSection.style.display = "none";
+    settingsSection.style.display = "none";
+    contactInfoSection.style.display = "none";
+    projectsSection.style.display = "none";
+});
 function setLang(l) {
     localStorage.setItem("lang", l)
     if (l === "en") {
