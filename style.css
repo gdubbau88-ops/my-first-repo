@@ -387,11 +387,17 @@ footer {
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
-    text-align: center;
-    border: 5px solid black;
+    border: 5px solid #0A0a0a;
     margin: 10px;
     background-color: #2ec4b6;
     height: auto;
     width: 400px;
     padding: auto;
+}
+
+.skills-section-1 p,
+.skills-section-2 p {
+color:#0A0a0a;
+font-size: 20px;
+text-align: center;
 }
