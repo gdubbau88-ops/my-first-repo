@@ -20,12 +20,12 @@ let skillsButton = document.querySelector(".skills-button");
 let settingsButton = document.querySelector(".settings-button");
 let projectsButton = document.querySelector(".projects-button");
 let contactInfoButton = document.querySelector(".contact-info-button");
-let homeSection = document.querySelector(".Home-Section");
-let aboutMeSection = document.querySelector(".About-Me-Section");
-let skillsSection = document.querySelector(".Skills-Section");
-let settingsSection = document.querySelector(".Settings-Section");
-let projectsSection = document.querySelector(".Projects-Section");
-let contactInfoSection = document.querySelector(".Contact-Info-Section");
+let homeSection = document.querySelector(".home-section");
+let aboutMeSection = document.querySelector(".about-me-section");
+let skillsSection = document.querySelector(".skills-section");
+let settingsSection = document.querySelector(".settings-section");
+let projectsSection = document.querySelector(".projects-section");
+let contactInfoSection = document.querySelector(".contact-info-section");
 
 homeButton.addEventListener("click", function(){
     homeSection.style.display = "block";
