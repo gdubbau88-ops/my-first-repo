@@ -26,6 +26,7 @@ let skillsSection = document.querySelector(".Skills-Section");
 let settingsSection = document.querySelector(".Settings-Section");
 let projectsSection = document.querySelector(".Projects-Section");
 let contactInfoSection = document.querySelector(".Contact-Info-Section");
+
 homeButton.addEventListener("click", function(){
     homeSection.style.display = "block";
     aboutMeSection.style.display = "none";
@@ -37,10 +38,42 @@ homeButton.addEventListener("click", function(){
 aboutMeButton.addEventListener("click", function(){
     homeSection.style.display = "none";
     aboutMeSection.style.display = "block";
+    settingsSection.style.display = "none";
+    contactInfoSection.style.display = "none";
+    projectsSection.style.display = "none"; 
     skillsSection.style.display = "none";
+});
+skillsButton.addEventListener("click", function(){
+    skillsSection.style.display = "block";
+    homeSection.style.display = "none";
+    aboutMeSection.style.display = "none";
     settingsSection.style.display = "none";
     contactInfoSection.style.display = "none";
     projectsSection.style.display = "none";
+});
+contactInfoButton.addEventListener("click", function(){
+    homeSection.style.display = "none";
+    aboutMeSection.style.display = "none";
+    settingsSection.style.display = "none";
+    contactInfoSection.style.display = "block";
+    projectsSection.style.display = "none";
+    skillsSection.style.display = "none";
+});
+projectsButton.addEventListener("click", function(){
+    homeSection.style.display = "none";
+    aboutMeSection.style.display = "none";
+    settingsSection.style.display = "none";
+    contactInfoSection.style.display = "none";
+    projectsSection.style.display = "block";
+    skillsSection.style.display = "none";
+});
+settingsButton.addEventListener("click", function(){
+    homeSection.style.display = "none";
+    aboutMeSection.style.display = "none";
+    settingsSection.style.display = "block";
+    contactInfoSection.style.display = "none";
+    projectsSection.style.display = "none";
+    skillsSection.style.display = "none";
 });
 function setLang(l) {
     localStorage.setItem("lang", l)
