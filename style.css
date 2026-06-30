@@ -1,3 +1,12 @@
+/* .About-Me-Section,
+.Skills-Section,
+.Settings-Section,
+.Projects-Section,
+.Contact-Info-Section{
+display: none;
+} */
+
+
 a {
     color: #ef6000;
     background-color: #0A0a0a;
@@ -61,7 +70,7 @@ h2 {
     background-color: #2ec4b6;
 }
 
-.Skills {
+.skills {
     color: #2ec4b6;
     background-color: #2ec4b6;
 }

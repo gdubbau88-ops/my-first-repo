@@ -14,7 +14,17 @@ let buttonSettings = document.querySelector(".button-settings");
 let buttonAboutMe = document.querySelector(".button-about-me");
 let buttonMyGithub = document.querySelector(".button-my-github");
 let buttonContactInfo = document.querySelector(".button-contact-info");
-
+let homeButton = document.querySelector(".home-button");
+let homeSection = document.querySelector(".Home-Section");
+let aboutMeSection = document.querySelector(".About-Me-Section");
+let skillsSection = document.querySelector(".Skills-Section");
+let settingsSection = document.querySelector(".Settings-Section");
+homeButton.addEventListener("click", function(){
+    homeSection.style.display = "block";
+    aboutMeSection.style.display = "none";
+    skillsSection.style.display = "none";
+    settingsSection.style.display = "none";
+})
 function setLang(l) {
     localStorage.setItem("lang", l)
     if (l === "en") {
