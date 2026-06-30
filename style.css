@@ -5,11 +5,22 @@ a {
     border-color: #0A0a0a;
     padding: 5px
 }
+.CS-logos{
+    width: 900px;
+    align-items: center;
+}
+.CSLogo{
+    /* 70/38.7 aspect ratio width/height */
+    height: 77.4px;
+    width: 140px;
+left: calc(50% - 70px);
+}
 .email,
 .email-url,
 .phone,
 .phone-number{
-    
+    color: #0A0a0a;
+    background-color: #2ec4b6;
 }
 h5 {
     color: #0A0a0a;
