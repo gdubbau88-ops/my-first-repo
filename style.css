@@ -10,8 +10,8 @@
 
 .cs-logo {
     /* 70/38.7 aspect ratio width/height */
-    height: 77.4px;
-    width: 140px;
+    height: 116.1px;
+    width: 210px;
     left: calc(50% - 70px);
 }
 
@@ -119,10 +119,12 @@
 .MJFM {
     height: 60px;
     width: auto;
-    display: inline;
+    display: flex;
     flex-wrap: wrap;
     aspect-ratio: 60px/60px;
-
+    align-self: center;
+    align-items: center;
+    margin: auto;
 }
 
 /* hides the link given from each button on both the landing and projects page */
@@ -426,10 +428,11 @@
     color: #0A0a0a;
     transform: translateY(-50%);
 }
+
 .trolley-problem-button-click-zone {
     position: absolute;
     left: calc(20% - 15vw);
-    width:20vw;
+    width: 20vw;
     height: 20vw;
     background-color: transparent;
     border-color: transparent;
@@ -456,6 +459,7 @@
     color: #0A0a0a;
     transform: translateY(-50%);
 }
+
 .notesorter-button-click-zone {
     position: absolute;
     left: calc(62% - 15vw);
@@ -470,6 +474,7 @@
     color: transparent;
     transform: translateY(-50%);
 }
+
 /* gun laws button and click zone */
 .gun-laws-button {
     position: absolute;
@@ -515,8 +520,9 @@
     color: #0A0a0a;
     transform: translateY(-50%);
 }
-.what-turtle-are-you-button-click-zone{
-      position: absolute;
+
+.what-turtle-are-you-button-click-zone {
+    position: absolute;
     left: calc(83.5% - 15vw);
     width: 20vw;
     height: 20vw;
@@ -529,6 +535,7 @@
     color: transparent;
     transform: translateY(-50%);
 }
+
 /* basic html elemnts stylization */
 h5 {
     color: #0A0a0a;
@@ -566,4 +573,14 @@ footer {
     margin: 0px;
     padding: 0px;
     border: #0A0a0a;
+}
+
+.sources {
+    text-align: center;
+    color: #0A0a0a;
+    background-color: #04e300;
+    display: block;
+    border: 10px solid #106200;
+    font-size: 2vw;
+    margin-top: 1vw;
 }
