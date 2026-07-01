@@ -35,7 +35,8 @@
     margin-bottom: 1vw;
     padding-bottom: 2vw;
 }
-.contact-info-header{
+
+.contact-info-header {
     text-align: center;
     color: #0A0a0a;
     background-color: #04e300;
@@ -43,6 +44,7 @@
     border: 10px solid #106200;
     font-size: 2vw;
 }
+
 /* nav bar buttons */
 .projects-button {
     background-color: #04e300;
@@ -368,14 +370,17 @@
     height: auto;
     width: 400px;
     padding: auto;
+    font-size: 2.28vw;
+    text-align: center;
+    padding: 0.2vw;
 }
 
-.skills-section-1 p,
+/* .skills-section-1 p,
 .skills-section-2 p {
     color: #0A0a0a;
-    font-size: 20px;
+    font-size: 2.8vw;
     text-align: center;
-}
+} */
 
 /* stylization for projects section */
 .four-turtles {
@@ -406,6 +411,7 @@
 
 }
 
+/* trolley problem button*/
 .trolley-problem-button {
     position: absolute;
     left: calc(20% - 10vw);
@@ -414,13 +420,28 @@
     background-color: transparent;
     border-color: transparent;
     position: absolute;
-    top: 24.5%;
+    top: 26.5%;
     font-weight: bold;
     font-size: 1.5vw;
     color: #0A0a0a;
     transform: translateY(-50%);
 }
+.trolley-problem-button-click-zone {
+    position: absolute;
+    left: calc(20% - 15vw);
+    width:20vw;
+    height: 20vw;
+    background-color: transparent;
+    border-color: transparent;
+    position: absolute;
+    top: 26.5%;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: transparent;
+    transform: translateY(-50%);
+}
 
+/* notesorter and border for text */
 .notesorter-button {
     position: absolute;
     left: calc(62% - 10vw);
@@ -435,7 +456,21 @@
     color: #0A0a0a;
     transform: translateY(-50%);
 }
-
+.notesorter-button-click-zone {
+    position: absolute;
+    left: calc(62% - 15vw);
+    width: 20vw;
+    height: 20vw;
+    background-color: transparent;
+    border-color: transparent;
+    position: absolute;
+    top: 22.5%;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: transparent;
+    transform: translateY(-50%);
+}
+/* gun laws button and click zone */
 .gun-laws-button {
     position: absolute;
     left: calc(39% - 10vw);
@@ -444,28 +479,56 @@
     background-color: transparent;
     border-color: transparent;
     position: absolute;
-    top: 58%;
+    top: 60.5%;
     font-weight: bold;
     font-size: 1.5vw;
     color: #0A0a0a;
+    transform: translateY(-50%);
+}
+
+.gun-laws-button-click-zone {
+    position: absolute;
+    left: calc(36% - 10vw);
+    width: 20vw;
+    height: 20vw;
+    background-color: transparent;
+    border-color: transparent;
+    position: absolute;
+    top: 60.5%;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: transparent;
     transform: translateY(-50%);
 }
 
 .what-turtle-are-you-button {
     position: absolute;
-    left: calc(83% - 10vw);
-    width: 10vw;
-    height: auto;
+    left: calc(83.5% - 15vw);
+    width: 20vw;
+    height: 20vw;
     background-color: transparent;
     border-color: transparent;
     position: absolute;
-    top: 58%;
+    top: 60.5%;
     font-weight: bold;
     font-size: 1.5vw;
     color: #0A0a0a;
     transform: translateY(-50%);
 }
-
+.what-turtle-are-you-button-click-zone{
+      position: absolute;
+    left: calc(83.5% - 15vw);
+    width: 20vw;
+    height: 20vw;
+    background-color: transparent;
+    border-color: transparent;
+    position: absolute;
+    top: 60.5%;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: transparent;
+    transform: translateY(-50%);
+}
 /* basic html elemnts stylization */
 h5 {
     color: #0A0a0a;
