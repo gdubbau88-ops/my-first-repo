@@ -1,3 +1,4 @@
+/* hides everything but landing page upon loading */
 .about-me-section,
 .skills-section,
 .settings-section,
@@ -7,148 +8,112 @@
     display: none;
 }
 
-
-a {
-    color: #ef6000;
-    background-color: #0A0a0a;
-    border: 4px;
-    border-color: #0A0a0a;
-    padding: 5px
-}
-
-.CS-logos {
-    width: 900px;
-    align-items: center;
-}
-
-.CSLogo {
+.cs-logo {
     /* 70/38.7 aspect ratio width/height */
     height: 77.4px;
     width: 140px;
     left: calc(50% - 70px);
 }
 
+/* stylization of contact info section */
 .email,
 .email-url,
 .phone,
-.phone-number {
+.phone-number,
+.my-github {
     color: #0A0a0a;
-    background-color: #2ec4b6;
+    background-color: #04e300;
 }
 
-h5 {
-    color: #0A0a0a;
+.contact-info {
     text-align: center;
+    color: #0A0a0a;
+    background-color: #04e300;
+    display: block;
+    border: 10px solid #106200;
+    font-size: 2vw;
+    margin-bottom: 1vw;
+    padding-bottom: 2vw;
 }
-
+.contact-info-header{
+    text-align: center;
+    color: #0A0a0a;
+    background-color: #04e300;
+    display: block;
+    border: 10px solid #106200;
+    font-size: 2vw;
+}
+/* nav bar buttons */
 .projects-button {
     background-color: #04e300;
     color: #0A0a0a;
     border: #04e300;
-    font-size: 1.5vw;
+    font-size: 1.7vw;
 }
 
 .about-me-button {
     background-color: #04e300;
     color: #0A0a0a;
     border: #04e300;
-    font-size: 1.5vw;
+    font-size: 1.7vw;
 }
 
 .contact-info-button {
     background-color: #04e300;
     color: #0A0a0a;
     border: #04e300;
-    font-size: 1.5vw;
-}
-
-.home {
-    background-color: #2ec4b6;
-    color: #2ec4b6;
+    font-size: 1.7vw;
 }
 
 .home-button {
     background-color: #04e300;
     color: #0A0a0a;
     border: #04e300;
-    font-size: 1.5vw;
+    font-size: 1.7vw;
 }
 
 .settings-button {
     background-color: #04e300;
     border: #04e300;
     color: #0A0a0a;
-    font-size: 1.5vw;
+    font-size: 1.7vw;
 }
 
 .skills-button {
     color: #0A0a0a;
     background-color: #04e300;
     border: #04e300;
-    font-size: 1.5vw;
+    font-size: 1.7vw;
 }
 
 .sources-button {
     color: #0A0a0a;
     border: #04e300;
     background-color: #04e300;
-    font-size: 1.5vw;
+    font-size: 1.7vw;
 }
 
-.Home {
-    color: #2ec4b6;
-    background-color: #2ec4b6;
-}
 
-h2 {
-    color: #0A0a0a;
-}
 
-body {
-    background-color: #2ec4b6;
-
-}
-
-p {
-    color: #0A0a0a;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.description {
-    color: #ef6000;
-    background-color: #0A0a0a;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.professional-headshot {
-    align-items: center;
-    text-align: center;
-    position: relative;
-    width: 17.2vw;
-    height: 21.5vw;
-    left: calc(50% - 8.6vw);
-    bottom: 47.5vw;
-    border-radius: 10%;
-}
-
+/* stylization and position of navbar */
 .nav {
+    position: relative;
     color: #0A0a0a;
-    width: 50vw;
-    height: 2vw;
+    width: 55vw;
+    height: auto;
     background-color: #04e300;
     border: solid #106200 5px;
     margin-right: 550px;
     align-items: center;
     text-align: center;
-    left: calc(50% - 25vw);
-    position: relative;
+    left: calc(50% - 27.5vw);
     padding: auto;
     top: 50%;
     margin-top: 0.5;
 
 }
 
+/* stylization of MJFM Logo */
 .MJFM {
     height: 60px;
     width: auto;
@@ -158,31 +123,14 @@ p {
 
 }
 
-img {
-    background-color: transparent;
-    position: relative;
-    /* left: calc(50vw - .5 * 700px); */
-    /* top:15px; */
-    width: 700px;
-    height: auto;
-    display: grid;
-
-}
-
-
+/* hides the link given from each button on both the landing and projects page */
 .button-link {
     color: #2ec4b6;
     background-color: transparent;
     font-size: xx-small;
 }
 
-br {
-    font-size: 0.001px;
-    height: 0.001;
-    padding: 0.00001px;
-    margin: 0.0001px;
-}
-
+/* css for background of landing page */
 .interactive-turtle-shell {
     position: relative;
     width: 100%;
@@ -203,6 +151,18 @@ br {
     color: #2ec4b6;
     /* grid-area: 1/1; */
 
+}
+
+/* css for location and size of professional headshot */
+.professional-headshot {
+    align-items: center;
+    text-align: center;
+    position: relative;
+    width: 17.2vw;
+    height: 21.5vw;
+    left: calc(50% - 8.6vw);
+    bottom: 47.5vw;
+    border-radius: 10%;
 }
 
 /* CSS for location of buttons on landing page button alignment */
@@ -253,7 +213,7 @@ br {
     right: 23%;
 }
 
-/*css for buttons*/
+/*css for turtle shell button on home page*/
 
 .button-projects {
     /* position: relative; */
@@ -357,21 +317,7 @@ br {
        top: -80vh; */
 }
 
-.contact-info {
-    text-align: center;
-    color: #0A0a0a;
-    background-color: #2ec4b6;
-    display: block;
-    border: 5px solid #0A0a0a;
-    font-size: 2vw;
-}
-
-footer {
-    margin: 0px;
-    padding: 0px;
-    border: #0A0a0a;
-}
-
+/* stylization fot About Me section */
 .about-me-section-1,
 .about-me-section-2,
 .about-me-section-3 {
@@ -382,7 +328,7 @@ footer {
     align-items: center;
     margin-bottom: 20px;
     text-align: center;
-    font-size: 25px;
+    font-size: 2.28vw;
     border: 5px solid #106200;
     margin: 10px;
     background-color: #04e300;
@@ -399,6 +345,7 @@ footer {
     flex-direction: row;
 }
 
+/* stylization for Skills page */
 .skills-section-container {
     display: flex;
     justify-content: space-between;
@@ -430,6 +377,7 @@ footer {
     text-align: center;
 }
 
+/* stylization for projects section */
 .four-turtles {
     align-self: center;
     margin: auto;
@@ -516,4 +464,43 @@ footer {
     font-size: 1.5vw;
     color: #0A0a0a;
     transform: translateY(-50%);
+}
+
+/* basic html elemnts stylization */
+h5 {
+    color: #0A0a0a;
+    text-align: center;
+}
+
+h2 {
+    color: #0A0a0a;
+}
+
+body {
+    background-color: #2ec4b6;
+
+}
+
+p {
+    color: #0A0a0a;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+br {
+    font-size: 0.001px;
+    height: 0.001;
+    padding: 0.00001px;
+    margin: 0.0001px;
+}
+
+/* sets background color to blue */
+.home {
+    background-color: #2ec4b6;
+    color: #2ec4b6;
+}
+
+footer {
+    margin: 0px;
+    padding: 0px;
+    border: #0A0a0a;
 }
