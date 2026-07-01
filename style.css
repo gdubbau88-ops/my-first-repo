@@ -1,11 +1,11 @@
- .about-me-section,
+.about-me-section,
 .skills-section,
 .settings-section,
 .projects-section,
 .contact-info-section,
-.sources-section{
-display: none;
-} 
+.sources-section {
+    display: none;
+}
 
 
 a {
@@ -15,41 +15,51 @@ a {
     border-color: #0A0a0a;
     padding: 5px
 }
-.CS-logos{
+
+.CS-logos {
     width: 900px;
     align-items: center;
 }
-.CSLogo{
+
+.CSLogo {
     /* 70/38.7 aspect ratio width/height */
     height: 77.4px;
     width: 140px;
-left: calc(50% - 70px);
+    left: calc(50% - 70px);
 }
+
 .email,
 .email-url,
 .phone,
-.phone-number{
+.phone-number {
     color: #0A0a0a;
     background-color: #2ec4b6;
 }
+
 h5 {
     color: #0A0a0a;
     text-align: center;
 }
 
-.projects {
-    background-color: #2ec4b6;
-    color: #2ec4b6;
+.projects-button {
+    background-color: #04e300;
+    color: #0A0a0a;
+    border: #04e300;
+    font-size: 1.5vw;
 }
 
-.about-me {
-    background-color: #2ec4b6;
-    color: #2ec4b6;
+.about-me-button {
+    background-color: #04e300;
+    color: #0A0a0a;
+    border: #04e300;
+    font-size: 1.5vw;
 }
 
-.Contact-Info {
-    background-color: #2ec4b6;
-    color: #2ec4b6;
+.contact-info-button {
+    background-color: #04e300;
+    color: #0A0a0a;
+    border: #04e300;
+    font-size: 1.5vw;
 }
 
 .home {
@@ -57,13 +67,32 @@ h5 {
     color: #2ec4b6;
 }
 
-.accessibility {
-    background-color: #2ec4b6;
-    background: #2ec4b6;
+.home-button {
+    background-color: #04e300;
+    color: #0A0a0a;
+    border: #04e300;
+    font-size: 1.5vw;
 }
 
-h2 {
+.settings-button {
+    background-color: #04e300;
+    border: #04e300;
     color: #0A0a0a;
+    font-size: 1.5vw;
+}
+
+.skills-button {
+    color: #0A0a0a;
+    background-color: #04e300;
+    border: #04e300;
+    font-size: 1.5vw;
+}
+
+.sources-button {
+    color: #0A0a0a;
+    border: #04e300;
+    background-color: #04e300;
+    font-size: 1.5vw;
 }
 
 .Home {
@@ -71,13 +100,12 @@ h2 {
     background-color: #2ec4b6;
 }
 
-.skills {
-    color: #2ec4b6;
-    background-color: #2ec4b6;
+h2 {
+    color: #0A0a0a;
 }
 
 body {
-    background-color: #ef6000;
+    background-color: #2ec4b6;
 
 }
 
@@ -105,19 +133,18 @@ p {
 }
 
 .nav {
-    color: black;
-    width: 46vw;
+    color: #0A0a0a;
+    width: 50vw;
     height: 2vw;
-    background-color: #0A0a0a;
-    size: 3vw;
-    border: solid #0A0a0a 5px;
-    border-color: #0A0a0a;
+    background-color: #04e300;
+    border: solid #106200 5px;
     margin-right: 550px;
     align-items: center;
     text-align: center;
-    left: calc(50% - 23vw);
+    left: calc(50% - 25vw);
     position: relative;
     padding: auto;
+    top: 50%;
     margin-top: 0.5;
 
 }
@@ -156,7 +183,7 @@ br {
     margin: 0.0001px;
 }
 
-.InteractiveTurtleShell {
+.interactive-turtle-shell {
     position: relative;
     width: 100%;
     /* height: 80vh; */
@@ -165,7 +192,7 @@ br {
     aspect-ratio: 5/4;
 }
 
-.InteractiveTurtleShell img {
+.interactive-turtle-shell img {
     width: 100%;
     height: 100%;
     size: cover;
@@ -355,9 +382,10 @@ footer {
     align-items: center;
     margin-bottom: 20px;
     text-align: center;
-    border: 5px solid black;
+    font-size: 25px;
+    border: 5px solid #106200;
     margin: 10px;
-    background-color: #2ec4b6;
+    background-color: #04e300;
     height: auto;
     width: 400px;
     padding: auto;
@@ -387,9 +415,9 @@ footer {
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
-    border: 5px solid #0A0a0a;
+    border: 5px solid #106200;
     margin: 10px;
-    background-color: #2ec4b6;
+    background-color: #04e300;
     height: auto;
     width: 400px;
     padding: auto;
@@ -397,7 +425,95 @@ footer {
 
 .skills-section-1 p,
 .skills-section-2 p {
-color:#0A0a0a;
-font-size: 20px;
-text-align: center;
+    color: #0A0a0a;
+    font-size: 20px;
+    text-align: center;
+}
+
+.four-turtles {
+    align-self: center;
+    margin: auto;
+    width: 93.75vw;
+    height: 52.8vw;
+}
+
+.interactive-turtles {
+    position: relative;
+    width: 100%;
+    /* height: 80vh; */
+    overflow: hidden;
+    display: grid;
+}
+
+.interactive-turtles img {
+    width: 100%;
+    height: 100%;
+    size: cover;
+    background-size: cover;
+    object-fit: cover;
+    display: block;
+    align-items: center;
+    color: #2ec4b6;
+    /* grid-area: 1/1; */
+
+}
+
+.trolley-problem-button {
+    position: absolute;
+    left: calc(20% - 10vw);
+    width: 10vw;
+    height: auto;
+    background-color: transparent;
+    border-color: transparent;
+    position: absolute;
+    top: 24.5%;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: #0A0a0a;
+    transform: translateY(-50%);
+}
+
+.notesorter-button {
+    position: absolute;
+    left: calc(62% - 10vw);
+    width: 10vw;
+    height: auto;
+    background-color: transparent;
+    border-color: transparent;
+    position: absolute;
+    top: 22.5%;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: #0A0a0a;
+    transform: translateY(-50%);
+}
+
+.gun-laws-button {
+    position: absolute;
+    left: calc(39% - 10vw);
+    width: 10vw;
+    height: auto;
+    background-color: transparent;
+    border-color: transparent;
+    position: absolute;
+    top: 58%;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: #0A0a0a;
+    transform: translateY(-50%);
+}
+
+.what-turtle-are-you-button {
+    position: absolute;
+    left: calc(83% - 10vw);
+    width: 10vw;
+    height: auto;
+    background-color: transparent;
+    border-color: transparent;
+    position: absolute;
+    top: 58%;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: #0A0a0a;
+    transform: translateY(-50%);
 }
