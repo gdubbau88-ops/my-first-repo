@@ -113,6 +113,7 @@
     padding: auto;
     top: 50%;
     margin-top: 0.5;
+    margin-top: 2vw;
 
 }
 
@@ -339,7 +340,7 @@
     background-color: #04e300;
     height: auto;
     width: 400px;
-    padding: auto;
+    padding: 1vw;
 }
 
 .about-me-section-container {
@@ -372,7 +373,7 @@
     background-color: #04e300;
     height: auto;
     width: 400px;
-    padding: auto;
+    padding: 1vw;
     font-size: 2.28vw;
     text-align: center;
     padding: 0.2vw;
@@ -607,6 +608,8 @@ footer {
     color: #0a0a0a;
     font-size: 2.28vw;
     margin: 0.5vw;
+    width: 15vw;
+    height: 5vw;
 }
 
 .light-mode {
@@ -616,6 +619,8 @@ footer {
     color: #0a0a0a;
     font-size: 2.28vw;
     margin: 0.5vw;
+    width: 15vw;
+    height: 5vw;
 }
 
 .english {
@@ -625,6 +630,8 @@ footer {
     color: #0a0a0a;
     font-size: 2.28vw;
     margin: 0.5vw;
+    width: 11vw;
+    height: 5vw;
 }
 
 .spanish {
@@ -634,4 +641,6 @@ footer {
     color: #0a0a0a;
     font-size: 2.28vw;
     margin: 0.5vw;
+    width: 11vw;
+    height: 5vw;
 }
