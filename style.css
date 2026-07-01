@@ -23,7 +23,7 @@
 .my-github {
     color: #0A0a0a;
     background-color: #04e300;
-     font-size: 2.28vw;
+    font-size: 2.28vw;
 }
 
 .contact-info {
@@ -585,37 +585,53 @@ footer {
     font-size: 2.28vw;
     margin-top: 1vw;
 }
-.settings{
-        text-align: center;
+
+/*css for settings page and buttons*/
+.settings {
+    text-align: center;
     color: #0A0a0a;
     background-color: #04e300;
     display: block;
     border: 10px solid #106200;
     font-size: 2.28vw;
     margin-top: 1vw;
+    margin: 1vw;
     padding-bottom: 1vw;
+    padding: 1vw;
 }
-.dark-mode{
-       border: #04e300;
-    background-color: #04e300;
+
+.dark-mode {
+    border: #106200 solid 5px;
+    border-radius: 20px;
+    background-color: transparent;
     color: #0a0a0a;
     font-size: 2.28vw;
+    margin: 0.5vw;
 }
-.light-mode{
-       border: #04e300;
-    background-color: #04e300;
+
+.light-mode {
+    border: #106200 solid 5px;
+    border-radius: 20px;
+    background-color: transparent;
     color: #0a0a0a;
-     font-size: 2.28vw;
+    font-size: 2.28vw;
+    margin: 0.5vw;
 }
-.english{
-       border: #04e300;
-    background-color: #04e300;
+
+.english {
+    border: #106200 solid 5px;
+    border-radius: 20px;
+    background-color: transparent;
     color: #0a0a0a;
-     font-size: 2.28vw;
+    font-size: 2.28vw;
+    margin: 0.5vw;
 }
-.spanish{
-       border: #04e300;
-    background-color: #04e300;
+
+.spanish {
+    border: #106200 solid 5px;
+    border-radius: 20px;
+    background-color: transparent;
     color: #0a0a0a;
-     font-size: 2.28vw;
+    font-size: 2.28vw;
+    margin: 0.5vw;
 }
