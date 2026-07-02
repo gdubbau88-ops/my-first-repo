@@ -342,7 +342,11 @@
     width: 400px;
     padding: 1vw;
 }
-
+.about-me-section-1 h2,
+.about-me-section-2 h2,
+.about-me-section-3 h2{
+margin-bottom: 0.5vw;
+}
 .about-me-section-container {
     display: flex;
     justify-content: space-between;
